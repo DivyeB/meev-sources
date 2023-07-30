@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, .5);
+}
+.logo{
+    height: 12%;
+    width: 12%;
+}
+.nav{
+    text-decoration-line: none;
+    color: white;
+    font-size: 100%;
+    position: absolute;
+    text-align: center;
+    padding-left: 80%;
+    padding-top: 3%;
+
+}
+.nav a:hover{
+    color: magenta;
+}
+.header{
+    background-image: url(https://imgbox.com/b60cRWt6);
+    opacity: .5;
+}
+.head_img{
+    height: 50%;
+    width: 50%;
+    align-items: center;
+}
