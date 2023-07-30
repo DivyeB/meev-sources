@@ -1,12 +1,31 @@
 body{
     background-color: black;
 }
+.Welcome{
+    background-image: url('header_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-blend-mode: lighten;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 70%;
+    width: 100%;
+}
 .navbar{
     background-color: rgba(0, 0, 0, .5);
 }
 .logo{
     height: 12%;
     width: 12%;
+}
+.wt{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    padding-bottom: 0;
 }
 .nav{
     text-decoration-line: none;
@@ -18,15 +37,12 @@ body{
     padding-top: 3%;
 
 }
-.nav a:hover{
+.nav:hover{
     color: magenta;
-}
-.header{
-    background-image: url(https://imgbox.com/b60cRWt6);
-    opacity: .5;
 }
 .head_img{
     height: 50%;
     width: 50%;
     align-items: center;
+    padding-left: 25%;
 }
