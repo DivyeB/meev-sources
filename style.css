@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 0;
 }
 .Welcome{
     background-image: url('header_bg.jpg');
@@ -24,25 +25,73 @@ body{
 .wt{
     text-align: center;
     color: white;
-    font-size: 300%;
+    font-size: 350%;
     padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
 }
 .nav{
     text-decoration-line: none;
     color: white;
-    font-size: 100%;
+    font-size: 130%;
     position: absolute;
     text-align: center;
-    padding-left: 80%;
-    padding-top: 3%;
+    margin-left: 80%;
+    margin-top: 3%;
 
 }
 .nav:hover{
-    color: magenta;
+    color: hsl(273, 100%, 50%);
 }
 .head_img{
     height: 50%;
     width: 50%;
     align-items: center;
     padding-left: 25%;
+}
+.breakline{
+    width: 100%;
+    border-style: none;
+    border-top-style: solid;
+    border-color: rgba(0, 162, 255, 0.707);
+    border-width: 5px;
+    height: 0;
+}
+.kys p{
+    color: white;
+    font-size: 300%;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    position: absolute;
+}
+.kys a{
+    color: white;
+    background-color: rgb(0, 162, 255);
+    text-decoration: none;
+    font-size: 300%;
+    position: absolute;
+    border: 5px;
+    padding: 3px;
+    border-radius: 5%;
+    margin-left: 75%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.kys a:hover{
+    background-color: white;
+    color: rgb(0, 162, 255);
+}
+.breakline2{
+    width: 100%;
+    border-style: none;
+    border-top-style: solid;
+    border-color: rgba(0, 162, 255, 0.707);
+    border-width: 5px;
+    height: 0;
+    position: absolute;
+    margin-top: 25%;
 }
